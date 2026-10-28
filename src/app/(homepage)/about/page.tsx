@@ -133,13 +133,13 @@ const AboutPage = () => {
         </p>
         <div className="flex w-full max-w-md flex-col  justify-center gap-2 sm:flex-row items-center sm:gap-3">
           <ArrowBtn
-            text="Explore the product"
-            href="/auth/login"
+            text="Get started for free"
+            linkToHome
             className="w-full justify-center sm:w-auto max-w-[240px]"
           />
           <OutlineBtn
-            text="View Pricing"
-            href="/pricing"
+            text="Contact Sales"
+            href="/contact-sales"
             className=" sm:w-auto w-[209px]"
           />
         </div>
@@ -194,7 +194,7 @@ const AboutPage = () => {
               conversation has purpose.
             </p>
 
-            <ArrowBtn text="Contact Sales" href="/contact-sales" inverted />
+            <OutlineBtn text="Contact Sales" href="/contact-sales" />
           </div>
 
           <div className="relative w-full overflow-hidden rounded-md">
@@ -267,7 +267,7 @@ const AboutPage = () => {
               ))}
             </ul>
 
-            <ArrowBtn text="Get Started" linkToHome inverted />
+            <ArrowBtn text="Get started for free" linkToHome />
           </div>
         </div>
       </section>
