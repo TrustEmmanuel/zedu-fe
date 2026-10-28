@@ -16,7 +16,6 @@ import {
 // initial states
 const initialState = {
   organisationName: "",
-  organisationEmail: "",
   organisationType: "",
 };
 
@@ -67,7 +66,6 @@ const CreateOrganization: React.FC = () => {
     const payload = {
       name: values.organisationName,
       type: values.organisationType,
-      email: "email@email.com",
       country: country?.value,
     };
 
