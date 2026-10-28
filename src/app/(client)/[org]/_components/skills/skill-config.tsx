@@ -41,7 +41,7 @@ import { PutRequest } from "~/utils/new-request";
 import images from "~/assets/images";
 import Loading from "~/components/ui/loading";
 import { ACTIONS } from "~/store/Actions";
-import { CredentialDropdown } from "../../samp/credentials-dropdown";
+import { CredentialDropdown } from "./credentials-dropdown";
 import { showError, showSuccess } from "~/components/toast/sonner";
 
 type AnyObject = { [k: string]: any };
